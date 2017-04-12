@@ -6,26 +6,29 @@ body {
 background-color: rgb(35, 35, 35);
 }
 header {
-height: 200px;
+height: 180px;
 display: flex;
-flex-direction: row;
 background-color: rgb(0, 122, 122);
+text-align: center;
+}
+#logo {
+flex: 3;
+padding: auto;
 }
 img {
-margin-top: 10%;
-margin-bottom: 15%;
-margin-left: 2%;
-flex: 1;
+margin-top: 15px;
+margin-left: -50%;
+height: 80%;
+width: auto;
 }
 #title {
-padding-left: 8%;
-flex: 7;
-text-align: center;
+flex: 8;
 }
 .content{
 background-color: white;
 padding-bottom: 50px;
 margin: 20px 20px 30px 20px;
+text-align: center;
 }
 nav {
 text-align: left;
@@ -35,17 +38,14 @@ flex: 3;
 a {
 text-decoration: none;
 padding-top: 45%;
+width: 100%;
 }
 h1 {
 font-size: 50px;
-padding-top: 40px;
-flex-grow: 1;
 }
 h2 {
 font-weight: lighter;
 font-size: 20px;
-margin-top: -20px;
-text-align: center;
 }
 h3 {
 color: rgb(0, 122, 122);
@@ -55,7 +55,7 @@ line-height: 0px;
 padding-top: 2%;
 }
 section {
-margin: 30px 30% -40px 25%;
+margin: 30px 25% -40px 25%;
 height: auto;
 }
 article {
@@ -66,11 +66,6 @@ height: 170px;
 span {
 display: flex;
 height: 170px;
-width: 100%;
-font-size: auto;
-text-align: center;
-padding-left: 9%;
-padding-right: 8%;
 filter: brightness(60%);
 }
 span:hover {
@@ -106,7 +101,7 @@ margin: auto;
 }
 footer {
 margin: 40px 5px 30px 5px;
-padding: 0px 30% 0px 25%;
+padding: 0px 25% 0px 25%;
 }
 form {
 display: flex
