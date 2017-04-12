@@ -2,143 +2,129 @@
 font-family: "Raleway";
 color: white;
 }
-
 body {
 background-color: rgb(35, 35, 35);
-display: flex;
-flex-direction: column;
 }
-
 header {
 height: 200px;
 display: flex;
 flex-direction: row;
 background-color: rgb(0, 122, 122);
-text-align: center;
 }
-
 img {
-margin-top: 20px;
-margin-bottom:30px;
-margin-left: 30px;
-min-width: 100px;
-min-height: 100px;
+margin-top: 10%;
+margin-bottom: 15%;
+margin-left: 2%;
 flex: 1;
 }
-
 #title {
-flex-grow: 4;
+padding-left: 8%;
+flex: 7;
+text-align: center;
 }
-
 .content{
 background-color: white;
 padding-bottom: 50px;
-margin: 30px 0px 30px 0px;
+margin: 20px 20px 30px 20px;
 }
-
 nav {
-flex: 3;
-flex-grow: 3;
 text-align: left;
+padding-top: 5%;
+flex: 3;
 }
-
-li {
-display: inline;
-list-style-type: none;
-font-size: 16px;
+a {
+text-decoration: none;
+padding-top: 45%;
 }
-
 h1 {
 font-size: 50px;
 padding-top: 40px;
 flex-grow: 1;
-padding-left: 20%;
 }
-
 h2 {
 font-weight: lighter;
 font-size: 20px;
-flex-grow: 1;
-margin-top: -10px;
-padding-left: 20%;
+margin-top: -20px;
+text-align: center;
 }
-
+h3 {
+color: rgb(0, 122, 122);
+font-weight: lighter;
+text-align: center;
+line-height: 0px;
+padding-top: 2%;
+}
 section {
-margin: 40px 30% -15px 25%;
+margin: 30px 30% -40px 25%;
 height: auto;
 }
-
 article {
 padding: 0px 5px 5px 5px;
 display: flex;
 height: 170px;
 }
-
 span {
 display: flex;
 height: 170px;
 width: 100%;
-font-size: 18px;
+font-size: auto;
+text-align: center;
+padding-left: 9%;
+padding-right: 8%;
+filter: brightness(60%);
+}
+span:hover {
+filter: brightness(100%);
 }
 #image1 {
 background-image: url("img/image1.jpg");
 background-size: cover;
-filter: brightness(60%);
 flex: 1;
-
 }
-
 #image2 {
 background-image: url("img/image2.jpg");
 background-size: cover;
-filter: brightness(60%);
 flex: 1;
 margin-left: 5px;
 }
-
 #image3 {
 background-image: url("img/image3.png");
 background-size: cover;
-background-color: rgba(0, 0, 0, 0.5);
-filter: brightness(60%);
+background-color: rgba(0, 0, 0, 0.4);
 flex: 1;
-
 }
-
 #image4 {
 background-image: url("img/image4.jpg");
 background-size: cover;
-filter: brightness(60%);
 flex: 1;
 margin-left: 5px;
 }
-
 p {
 font-weight: lighter;
 text-align: center;
 margin: auto;
-font-weight: lighter;
 }
-
 footer {
-margin: 20px 0px 30px 0px;
+margin: 40px 5px 30px 5px;
 padding: 0px 30% 0px 25%;
-display: flex;
-flex-direction: row;
 }
-
+form {
+display: flex
+}
 #bar {
 background-color: white;
 border-radius: 3px;
-height: 30px;
+height: 40px;
 flex: 12;
+margin-left: 10px;
+color: grey;
 }
-
-#button {
+#buton {
 background-color: rgb(0, 120, 132);
 border-radius: 3px;
-padding-top: 10px;
 margin-left: 10px;
+margin-right: 10px;
+height: 45px;
 flex: 1;
-font-size: 12px;
+font-size: 18px;
 }
